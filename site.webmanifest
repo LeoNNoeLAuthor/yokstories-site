@@ -1,0 +1,15 @@
+{
+  "name": "Yok Stories by LéoN NoèL",
+  "short_name": "Yok Stories",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8e8",
+  "theme_color": "#fff4d6",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
