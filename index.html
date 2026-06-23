@@ -574,17 +574,41 @@
 <div><strong>Week 5</strong><span>Books 9–10</span></div>
 </div>
 <div class="newsletter-signup" id="newsletter-signup">
-<div class="newsletter-form-wrap" id="newsletter-form-wrap">
-<p class="newsletter-label">Get a short note when each pair of books goes live — roughly every other week, no spam.</p>
-<div class="newsletter-row">
-<label class="sr-only" for="newsletter-email">Your email address</label>
-<input autocomplete="email" class="newsletter-input" id="newsletter-email" name="email" placeholder="your@email.com" required type="email"/>
-<button class="button" id="newsletter-submit" type="button">Notify me</button>
-</div>
-<p class="newsletter-privacy">Your email is used only for Yok Stories launch notes. Unsubscribe any time.</p>
-</div>
-<div aria-live="polite" class="newsletter-thanks is-hidden" id="newsletter-thanks">
-<p>✓ You're on the list! Watch for a short note from LéoN NoèL when the books go live.</p>
+  <div class="newsletter-form-wrap" id="newsletter-form-wrap">
+    <p class="newsletter-label">Get a short note when each pair of books goes live — roughly every other week, no spam.</p>
+
+    <div class="newsletter-row">
+      <label class="sr-only" for="newsletter-first-name">Your first name</label>
+      <input
+        autocomplete="given-name"
+        class="newsletter-input"
+        id="newsletter-first-name"
+        name="firstName"
+        placeholder="Your first name (optional)"
+        type="text"
+        maxlength="60"
+      />
+
+      <label class="sr-only" for="newsletter-email">Your email address</label>
+      <input
+        autocomplete="email"
+        class="newsletter-input"
+        id="newsletter-email"
+        name="email"
+        placeholder="your@email.com"
+        required
+        type="email"
+      />
+
+      <button class="button" id="newsletter-submit" type="button">Notify me</button>
+    </div>
+
+    <p class="newsletter-privacy">For grown-ups only. Your email is used only for Yok Stories launch notes. Unsubscribe any time.</p>
+  </div>
+
+  <div aria-live="polite" class="newsletter-thanks is-hidden" id="newsletter-thanks">
+    <p>✓ You're on the list! Watch for a short note from LéoN NoèL when the books go live.</p>
+  </div>
 </div>
 </div>
 <div class="hero-actions centered-actions" style="margin-top:1.25rem">
