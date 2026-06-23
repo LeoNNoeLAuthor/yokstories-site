@@ -56,8 +56,8 @@ clearSearch?.addEventListener('click', () => {
 // 5. Paste the form action URL below (GOOGLE_FORM_ACTION_URL) and the
 //    field name (entry.XXXXXXXXX) as GOOGLE_FORM_FIELD.
 //
-const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/formResponse';
-const GOOGLE_FORM_FIELD = 'entry.YOUR_FIELD_ID_HERE';
+const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSe--19YuxprrIMdFdllXVp7Mnodp5R88U8-C4vF5LtSozsGCA/formResponse';
+const GOOGLE_FORM_FIELD = 'entry.2030358186';
 
 const newsletterSubmit = document.getElementById('newsletter-submit');
 const newsletterEmail  = document.getElementById('newsletter-email');
