@@ -259,3 +259,20 @@ h3 a:hover, h3 a:focus-visible { text-decoration: underline; text-decoration-thi
 .newsletter-privacy { font-size: .82rem; color: var(--muted); margin-top: .55rem; }
 .newsletter-thanks { background: rgba(74,110,68,.1); border: 1.5px solid rgba(74,110,68,.3); border-radius: var(--radius); padding: .85rem 1.1rem; color: var(--green-dark); font-weight: 760; margin-top: .5rem; }
 .newsletter-thanks.is-hidden, .newsletter-form-wrap.is-hidden { display: none; }
+
+/* Two-collection author-site additions */
+.collection-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.2rem; }
+.collection-card { display:grid; grid-template-columns:minmax(150px,220px) 1fr; gap:1.25rem; align-items:center; padding:1.15rem; border-radius:var(--radius-lg); background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.72),#e7f4dc); border:1px solid rgba(107,74,43,.14); box-shadow:var(--shadow); }
+.collection-card.luma-card { background:linear-gradient(135deg,rgba(255,255,255,.9),rgba(255,255,255,.72),#e8e2ff); }
+.collection-card img { border-radius:22px; border:3px solid rgba(107,74,43,.16); }
+.release-columns { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.4rem auto; width:100%; }
+.release-series { text-align:left; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.18); border-radius:22px; padding:1rem; }
+.release-series h3 { color:#fffaf0; margin-bottom:.75rem; }
+.release-list { display:grid; gap:.5rem; }
+.release-list div { display:flex; justify-content:space-between; gap:1rem; padding:.65rem .75rem; border-radius:14px; background:rgba(255,255,255,.09); }
+.release-list strong { color:#fff; }
+.release-list span { color:#e9f7df; font-weight:800; text-align:right; }
+.luma-hero { display:flex; justify-content:center; align-items:center; }
+.luma-hero img { width:min(100%,460px); border-radius:30px; border:6px solid var(--paper); box-shadow:var(--shadow); transform:rotate(2deg); }
+@media (max-width:900px){.collection-grid,.release-columns{grid-template-columns:1fr}.collection-card{grid-template-columns:150px 1fr}}
+@media (max-width:560px){.collection-card{grid-template-columns:1fr}.collection-card img{max-width:230px;margin-inline:auto}.release-list div{display:grid}.release-list span{text-align:left}}

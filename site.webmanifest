@@ -1,6 +1,6 @@
 {
-  "name": "Yok Stories by LéoN NoèL",
-  "short_name": "Yok Stories",
+  "name": "LéoN NoèL Children’s Books",
+  "short_name": "LéoN NoèL",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fff8e8",
@@ -11,5 +11,6 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "description": "Gentle children’s books: Yok Stories and Luma’s Blue Dreams Forest."
 }
