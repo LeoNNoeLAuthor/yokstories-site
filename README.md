@@ -18,3 +18,9 @@ The published address is:
 The package includes `index.html`, all section pages, optimized images,
 `.nojekyll`, social links, canonical metadata, and paths configured for the
 `/yokstories-site/` repository URL.
+
+
+## Current bilingual release
+
+- **Yok Says Hello / Yok dit bonjour** — Bilingual Yok Book 1 — published August 24, 2026.
+- Paperback on Amazon: https://www.amazon.com/dp/B0HGBDC97F
