@@ -20,7 +20,9 @@ The package includes `index.html`, all section pages, optimized images,
 `/yokstories-site/` repository URL.
 
 
-## Current bilingual release
+## Current bilingual releases
 
-- **Yok Says Hello / Yok dit bonjour** — Bilingual Yok Book 1 — published August 24, 2026.
-- Paperback on Amazon: https://www.amazon.com/dp/B0HGBDC97F
+- **Yok Says Hello / Yok dit bonjour** — available in paperback.
+  - Amazon: https://www.amazon.com/dp/B0HGBDC97F
+- **Yok Finds the Words / Yok trouve les mots** — now available in paperback.
+  - Amazon: https://www.amazon.com/dp/B0HGFN9X9W
