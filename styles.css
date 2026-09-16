@@ -24,3 +24,26 @@
 @media(max-width:620px){.home-books{padding:70px 0}.home-book-grid article{grid-template-columns:90px 1fr}.home-book-grid img{width:90px;max-height:140px}.book-detail-hero{padding:55px 0 65px}.book-detail-copy h1{font-size:3.35rem}.story-detail,.detail-resources{padding:70px 0}.download-grid{grid-template-columns:1fr}.detail-next{padding:60px 0}.detail-next .actions{gap:10px}.author-tease{border-top:0}}
 
 .purchase-link{display:inline-block;margin-right:14px}
+
+/* Yok collection architecture */
+.yok-family-head{display:flex;justify-content:space-between;align-items:end;margin-top:55px;gap:20px}.yok-family-head h2{font:2.4rem/1.08 Georgia,serif;margin:0}.yok-family-head>span{font-size:.78rem;color:var(--muted);font-weight:700}.series-scroll{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:22px 2px 34px;scrollbar-width:thin}.series-mini{flex:0 0 270px;scroll-snap-align:start;background:white;border:1px solid var(--line);border-radius:24px;padding:18px}.series-mini img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:15px;margin-bottom:20px}.series-mini h3{font:1.4rem/1.15 Georgia,serif;margin:0 0 10px}.series-mini p{font-size:.85rem;line-height:1.55;color:var(--muted)}.luma-home{max-width:760px;margin:45px auto 0;display:grid;grid-template-columns:280px 1fr}.luma-home .collection-image{height:auto;padding:30px}.compact{padding:10px 0 35px}.series-pill{flex:0 0 auto;padding:14px 20px;border:1px solid var(--line);border-radius:999px;font-weight:800;font-size:.82rem;background:white}.series-pill.active{background:var(--forest);color:white}.yok-collections{padding-top:45px}.calendar-legend .everyday,.calendar-legend .firstxp{display:inline-flex}.release-event.everyday{border-left:4px solid #d58b55}.release-event.firstxp{border-left:4px solid #7196a8}@media(max-width:720px){.luma-home{display:block}.yok-family-head{align-items:start;flex-direction:column}.series-mini{flex-basis:235px}}
+
+/* Yok collection dropdown navigation */
+.nav-dropdown{position:relative;display:flex;align-items:stretch}
+.site-header nav .nav-dropdown>a{display:flex;align-items:center;gap:5px}
+.nav-dropdown-menu{position:absolute;top:calc(100% - 10px);left:50%;transform:translateX(-50%) translateY(8px);min-width:235px;padding:9px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 18px 45px #173b3826;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .16s ease,transform .16s ease,visibility .16s;z-index:80}
+.site-header nav .nav-dropdown-menu a{display:block;padding:10px 12px;border:0;border-radius:9px;white-space:nowrap;font-size:.82rem}
+.site-header nav .nav-dropdown-menu a:hover{background:var(--mint);border:0}
+.nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown:focus-within .nav-dropdown-menu{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.mobile-submenu{border:0}.mobile-submenu summary{padding:10px;border-radius:9px;cursor:pointer;font-weight:700;list-style:none}.mobile-submenu summary::-webkit-details-marker{display:none}.mobile-submenu summary:after{content:'▾';float:right}.mobile-submenu[open] summary:after{content:'▴'}.mobile-submenu>div{display:grid;padding:2px 0 4px 10px;border-left:2px solid var(--line);margin-left:10px}.mobile-submenu>div a{font-size:.82rem;padding:8px 10px}
+
+/* Yok family cross-collection navigation */
+.yok-family-nav{margin-top:2rem;margin-bottom:2rem}
+.yok-family-nav .content-heading{margin-bottom:1rem}
+.series-pill[aria-current="page"]{box-shadow:0 0 0 2px rgba(31,79,63,.16);font-weight:800}
+.yok-breadcrumb{max-width:1180px;margin:1.1rem auto 0;padding:0 1.25rem;font-size:.92rem;color:var(--muted,#66736d)}
+.yok-breadcrumb a{color:inherit;text-decoration:none}
+.yok-breadcrumb a:hover{text-decoration:underline}
+.yok-book-explore{margin-top:2.5rem;margin-bottom:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(40,70,60,.12)}
+.yok-book-explore .content-heading{margin-bottom:.9rem}
+@media(max-width:700px){.yok-family-nav .series-scroll,.yok-book-explore .series-scroll{display:flex;overflow-x:auto;gap:.65rem;padding-bottom:.5rem;scroll-snap-type:x proximity}.yok-family-nav .series-pill,.yok-book-explore .series-pill{flex:0 0 auto;scroll-snap-align:start;white-space:nowrap}.yok-breadcrumb{padding:0 1rem}}
