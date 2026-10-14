@@ -77,3 +77,10 @@
 .lean-hero img[src*="lean-friends-advertisement"]{width:370px;max-height:370px;padding:0;border-radius:20px;object-fit:contain;background:transparent;box-shadow:0 18px 44px #173b3822}
 @media(max-width:900px){.book-search-grid,.resource-seo-grid,.resource-detail-grid,.resource-use-section{grid-template-columns:1fr}.conversation-card{max-width:650px}.resource-faq-grid{grid-template-columns:1fr}.resource-related-inner{align-items:flex-start;flex-direction:column}.resource-detail-preview{grid-row:1}.lean-hero img[src*="lean-friends-advertisement"]{width:min(100%,370px)}}
 @media(max-width:620px){.book-search-intent{padding:55px 0}.resource-detail-hero{padding:35px 0 55px}.resource-use-section{padding:58px 0}.resource-band{padding:58px 0}.conversation-card{padding:23px}.resource-detail-copy h1{font-size:2.55rem}}
+
+/* Luma Book 6 launch announcement */
+.luma-release{display:grid;grid-template-columns:180px minmax(0,1fr);gap:2rem;align-items:center;margin-block:2rem 3rem;padding:1.6rem 2rem;background:#eff5f8;border:1px solid #d8e8ef;border-radius:22px}
+.luma-release-cover img{width:100%;max-width:180px;height:auto;border-radius:9px;box-shadow:0 12px 30px #19375a2b}
+.luma-release h2{font-size:clamp(1.55rem,3vw,2.35rem);margin:.35rem 0 .65rem}
+.luma-release p{max-width:690px}.luma-release .actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1rem}
+@media(max-width:630px){.luma-release{grid-template-columns:110px 1fr;gap:1rem;padding:1rem}.luma-release h2{font-size:1.35rem}.luma-release .actions{grid-column:1/-1}.luma-release .actions .button{padding:.6rem .8rem;font-size:.86rem}}
