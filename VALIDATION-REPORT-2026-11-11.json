@@ -1,0 +1,30 @@
+{
+  "html_files": 86,
+  "book_pages": 37,
+  "pdf_files": 36,
+  "webp_files": 108,
+  "resources": 36,
+  "internal_missing_count": 0,
+  "internal_missing_examples": [],
+  "bad_fragment_count": 0,
+  "fragment_examples": [],
+  "duplicate_titles": {},
+  "missing_descriptions": 0,
+  "missing_og": [],
+  "structured_data_json_errors": [],
+  "images_without_dimensions": 0,
+  "sitemap_urls": 85,
+  "canonical_urls": 85,
+  "sitemap_missing_canonicals": [],
+  "sitemap_extra": [],
+  "groups": {
+    "bilingual": 6,
+    "yok": 10,
+    "luma": 8,
+    "first-experiences": 6,
+    "everyday": 6,
+    "other": 1
+  },
+  "missing_pdf_links": [],
+  "test_scope": "Static file/markup validation; browser, real-device, Lighthouse, screen-reader and live external link checks not performed."
+}
